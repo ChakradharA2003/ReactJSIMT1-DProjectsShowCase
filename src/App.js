@@ -54,9 +54,8 @@ class App extends Component {
     }
   }
 
-  onChangeCategory = async event => {
-    await this.setState({category: event.target.value})
-    this.getProjects()
+  onChangeCategory = event => {
+    this.setState({category: event.target.value}, this.getProjects)
   }
 
   successView = () => {
