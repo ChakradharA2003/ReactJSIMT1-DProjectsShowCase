@@ -1,0 +1,19 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 280px;
+  margin: 15px;
+  width: 30%;
+  border-radius: 15px;
+  padding: 0px 0px 8px 0px;
+}
+.project-image {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.project-name {
+  margin: 12px;
+  font-size: 24px;
+}

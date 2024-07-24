@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  background-color: #f1f5f9;
+  height: 100vh;
+  overflow: auto;
+}
+.header-container {
+  background-color: #cbd5e1;
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+}
+
+.website-logo {
+  height: 60px;
+  width: 180px;
+}
+
+.projects-filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 40px 40px 20px 80px;
+}
+
+.select-style {
+  outline: none;
+  width: 300px;
+  padding: 10px;
+}
+.project-card-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.loading-failure-views {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.failure-image {
+  height: 600px;
+  width: 55%;
+}
+.failure-heading {
+  color: #475569;
+}
+.failure-description {
+  color: #475569;
+  margin-top: 1px;
+}
+.retry-btn {
+  background-color: #328af2;
+  color: #ffffff;
+  padding: 8px 15px 8px 15px;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+  border-width: 0px;
+  border-radius: 5px;
+}
